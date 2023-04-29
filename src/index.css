@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('/public/fonts/DMSerifDisplay-Regular.ttf');
+
+.option {
+  @apply uppercase font-semibold text-white md:text-grayish-blue text-sm cursor-pointer transition-colors duration-300 hover:text-dark-violet tracking-wider;
+}
+
+.btn {
+  @apply w-56 md:w-44 border-2 font-custom text-sm font-semibold text-white md:text-grayish-blue tracking-wider border-white md:border-dark-violet p-2 text-center uppercase bg-transparent transition-colors duration-300 cursor-pointer hover:bg-very-dark-violet hover:text-white;
+}

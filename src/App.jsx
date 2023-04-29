@@ -1,6 +1,10 @@
+import { NavbarContainer } from "./components/navbar/NavbarContainer"
+
 const App = () => {
   return (
-    <h1 className='text-red-500 font-bold text-center'>Hello World</h1>
+    <main className='max-w-full min-h-screen'>
+      <NavbarContainer />
+    </main>
   )
 }
 
