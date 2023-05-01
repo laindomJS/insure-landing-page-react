@@ -9,5 +9,5 @@
 }
 
 .btn {
-  @apply w-56 md:w-44 border-2 font-custom text-sm font-semibold text-white md:text-grayish-blue tracking-wider border-white md:border-dark-violet p-2 text-center uppercase bg-transparent transition-colors duration-300 cursor-pointer hover:bg-very-dark-violet hover:text-white;
+  @apply w-56 md:w-36 border-2 font-custom text-sm font-semibold text-white md:text-dark-violet tracking-wider border-white md:border-dark-violet p-2 text-center uppercase bg-transparent transition-colors duration-300 cursor-pointer hover:bg-very-dark-violet hover:text-white;
 }
