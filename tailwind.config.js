@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'custom': ['DM Serif Display', 'sans-serif'],
-        'karla': ['Karla', 'sans-serif']
+        custom: ['DM Serif Display', 'sans-serif'],
+        karla: ['Karla', 'sans-serif']
       },
       colors: {
         'dark-violet': 'hsl(256, 26%, 20%)',
@@ -18,7 +18,9 @@ export default {
         'very-light-gray': 'hsl(0, 0%, 98%)'
       },
       backgroundImage: {
-        'nav-pattern-mobile': 'url("/src/assets/images/bg-pattern-mobile-nav.svg")'
+        'nav-pattern-mobile': 'url("/src/assets/images/bg-pattern-mobile-nav.svg")',
+        'image-intro-mobile': 'url("/src/assets/images/image-intro-mobile.jpg")',
+        'image-intro-desktop': 'url("/src/assets/images/image-intro-desktop.jpg")'
       }
     },
   },

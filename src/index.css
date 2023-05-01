@@ -4,14 +4,12 @@
 
 @layer base {
   @font-face {
-    font-family: 'DM Serif Display', sans-serif;
-    font-weight: 400;
-    src: url('/public/fonts/DMSerifDisplay-Regular.ttf') format('ttf');
+    font-family: 'DM Serif Display';
+    src: url('../public/fonts/DMSerifDisplay-Regular.ttf');
   }
   @font-face {
-    font-family: 'Karla', sans-serif;
-    font-weight: 400;
-    src: url('/public/fonts/Karla-VariableFont_wght.ttf') format('ttf');
+    font-family: 'Karla';
+    src: url('../public/fonts/Karla-VariableFont_wght.ttf');
   }
 }
 
@@ -20,5 +18,5 @@
 }
 
 .btn {
-  @apply w-48 md:w-36 border-2 font-custom text-base md:text-sm font-semibold text-white md:text-dark-violet tracking-wider border-white md:border-dark-violet p-2 text-center uppercase bg-transparent transition-colors duration-300 cursor-pointer hover:bg-very-dark-violet hover:text-white;
+  @apply w-48 md:w-36 border-2 font-karla text-base md:text-sm font-semibold text-white md:text-dark-violet tracking-wider border-white md:border-dark-violet p-2 text-center uppercase bg-transparent transition-colors duration-300 cursor-pointer hover:bg-very-dark-violet hover:text-white;
 }
