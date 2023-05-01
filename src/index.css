@@ -2,12 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('/public/fonts/DMSerifDisplay-Regular.ttf');
+@layer base {
+  @font-face {
+    font-family: 'DM Serif Display', sans-serif;
+    font-weight: 400;
+    src: url('/public/fonts/DMSerifDisplay-Regular.ttf') format('ttf');
+  }
+  @font-face {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    src: url('/public/fonts/Karla-VariableFont_wght.ttf') format('ttf');
+  }
+}
 
 .option {
-  @apply uppercase font-semibold text-white md:text-grayish-blue text-sm cursor-pointer transition-colors duration-300 hover:text-dark-violet tracking-wider;
+  @apply uppercase font-semibold text-white md:text-grayish-blue text-base md:text-sm cursor-pointer transition-colors duration-300 hover:text-dark-violet tracking-wider;
 }
 
 .btn {
-  @apply w-56 md:w-36 border-2 font-custom text-sm font-semibold text-white md:text-dark-violet tracking-wider border-white md:border-dark-violet p-2 text-center uppercase bg-transparent transition-colors duration-300 cursor-pointer hover:bg-very-dark-violet hover:text-white;
+  @apply w-48 md:w-36 border-2 font-custom text-base md:text-sm font-semibold text-white md:text-dark-violet tracking-wider border-white md:border-dark-violet p-2 text-center uppercase bg-transparent transition-colors duration-300 cursor-pointer hover:bg-very-dark-violet hover:text-white;
 }
