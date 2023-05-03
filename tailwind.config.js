@@ -19,8 +19,14 @@ export default {
       },
       backgroundImage: {
         'nav-pattern-mobile': 'url("/src/assets/images/bg-pattern-mobile-nav.svg")',
-        'image-intro-mobile': 'url("/src/assets/images/image-intro-mobile.jpg")',
-        'image-intro-desktop': 'url("/src/assets/images/image-intro-desktop.jpg")'
+        'image-intro-mobile': 'url("/image-intro-mobile.jpg")',
+        'image-intro-desktop': 'url("/image-intro-desktop.jpg")',
+        'pattern-intro-left-mobile': 'url("/src/assets/images/bg-pattern-intro-left-mobile.svg")',
+        'pattern-intro-left-desktop': 'url("/src/assets/images/bg-pattern-intro-left-desktop.svg")',
+        'pattern-intro-right-mobile': 'url("/src/assets/images/bg-pattern-intro-right-mobile.svg")',
+        'pattern-intro-right-desktop': 'url("/src/assets/images/bg-pattern-intro-right-desktop.svg")',
+        'pattern-how-we-work-desktop': 'url("/src/assets/images/bg-pattern-how-we-work-desktop.svg")',
+        'pattern-how-we-work-mobile': 'url("/src/assets/images/bg-pattern-how-we-work-mobile.svg")'
       }
     },
   },
