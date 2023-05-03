@@ -1,7 +1,7 @@
 export const Find = () => {
   return (
     <section className='w-full h-[320px] px-1 md:px-20'>
-      <article className='w-full h-52 bg-dark-violet flex flex-col md:flex-row items-center md:justify-between md:px-20 bg-pattern-how-we-work-mobile md:bg-pattern-how-we-work-desktop bg-no-repeat bg-contain bg-right-top py-8 md:py-0'>
+      <article className='w-full h-56 md:h-52 bg-dark-violet flex flex-col md:flex-row items-center md:justify-between px-8 md:px-20 bg-pattern-how-we-work-mobile md:bg-pattern-how-we-work-desktop bg-no-repeat bg-contain bg-right-top py-6 md:py-0'>
         <h3 className='text-white font-custom text-3xl text-center md:text-left md:text-5xl md:w-[450px]'>
           Find out more about how we work
         </h3>

@@ -26,3 +26,7 @@
 .btn {
   @apply w-48 md:w-36 border-2 font-karla text-base md:text-sm font-semibold text-white md:text-dark-violet tracking-wider border-white md:border-dark-violet p-2 text-center uppercase bg-transparent transition-colors duration-300 cursor-pointer hover:bg-very-dark-violet hover:text-white;
 }
+
+.icon {
+  @apply w-7 h-7 fill-dark-grayish-violet cursor-pointer transition-colors duration-300 hover:fill-dark-violet;
+}

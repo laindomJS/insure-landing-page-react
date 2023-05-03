@@ -26,7 +26,9 @@ export default {
         'pattern-intro-right-mobile': 'url("/src/assets/images/bg-pattern-intro-right-mobile.svg")',
         'pattern-intro-right-desktop': 'url("/src/assets/images/bg-pattern-intro-right-desktop.svg")',
         'pattern-how-we-work-desktop': 'url("/src/assets/images/bg-pattern-how-we-work-desktop.svg")',
-        'pattern-how-we-work-mobile': 'url("/src/assets/images/bg-pattern-how-we-work-mobile.svg")'
+        'pattern-how-we-work-mobile': 'url("/src/assets/images/bg-pattern-how-we-work-mobile.svg")',
+        'pattern-footer-mobile': 'url("/src/assets/images/bg-pattern-footer-mobile.svg")',
+        'pattern-footer-desktop': 'url("/src/assets/images/bg-pattern-footer-desktop.svg")'
       }
     },
   },

@@ -4,7 +4,7 @@ export const Hero = () => {
       {/* <div className='w-[650px] h-[590px] md:bg-pattern-intro-left-desktop bg-no-repeat md:absolute left-0 -bottom-[420px] z-50'></div>
       <div className='w-[420px] h-[590px] md:bg-pattern-intro-right-desktop bg-no-repeat md:absolute right-0 top-0 z-50'></div> */}
       
-      <section className='w-full h-[340px] bg-image-intro-mobile md:bg-image-intro-desktop bg-cover bg-no-repeat static md:absolute md:w-[430px] md:h-full md:-bottom-36 md:right-36'></section>
+      <section className='w-full h-[380px] bg-image-intro-mobile md:bg-image-intro-desktop bg-cover bg-no-repeat static md:absolute md:w-[430px] md:h-full md:-bottom-36 md:right-36'></section>
       
       <section className='w-full h-[420px] md:h-[520px] bg-dark-violet text-center md:text-left py-20 md:py-32 md:pl-32 bg-pattern-intro-left-mobile bg-no-repeat md:bg-none'>
         <div className='w-11/12 md:w-[540px] m-auto md:m-0 h-fit'>
